@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>KeyzMart</title>
+        <link rel="icon" href="/image/icons/keyzmart icon.png" type="image/png">
+        <link rel="stylesheet" href="/css/keyz.css">
+    </head>
+    <body>
+        <div class="gen-cont">
+            <!-- Header -->
+            <div class="header">
+                <div class="cont">
+                    <div class="navi">
+                        <div class="logo">
+                            <a href="home.html"><img id="icon" src="/image/icons/keyzmart2.png"></a>
+                        </div>
+                        <nav id="navo">
+                            <ul id="MenuItems">
+                                <li><a href="home.html">Home</a></li>
+                                <li><a href="products.html">Products</a></li>
+                                <li><a href="about.html">About</a></li>
+                                <li><a href="contact.html">Contact</a></li>
+                                <li><a href="signup.html">Sign up</a></li>
+                            </ul>
+                        </nav>
+                        <a href="cart.html"><img src="/image/icons/cart.png" width="30px" height="30px"></a>
+                        <img src="/image/icons/menu.png" class="menuicon" onclick="menutoggle()">
+                    </div>
+                    <div class="row">
+                        <div class="col-2">
+                            <h1>Your One-Stop Shop for All<br>Musical Instuments!</h1>
+                            <p>Discover a wide range of musical instruments, their accessories,<br> 
+                                and more at KeyzMart. Whether you're a beginner, intermidiate, <br>
+                                or professional, we have the perfect instuments for you.</p>
+                            <a href="" class="btn">Shop Now &#8594;</a>
+                        </div>
+                        <div class="col-2">
+                            <img id="ban" src="/image/icons/instr4.png">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+                <!-- Featured Categories of Products -->
+            <div class="categories">
+                <div class="small-container">
+                    <h2 class="title">Featured Categories</h2>
+                    <div class="row">
+                        <div class="col-3">
+                            <img src="/image/categories/elect1.jpg">
+                            <h4>Electric Instruments</h4>
+                        </div>
+                        <div class="col-3">
+                            <img src="/image/categories/stringed2.jpg">
+                            <h4>Stringed Instruments</h4>
+                        </div>
+                        <div class="col-3">
+                            <img src="/image/categories/win3.jpg">
+                            <h4>Wind Instruments</h4>
+                        </div>
+                        <div class="col-3">
+                            <img src="/image/categories/perc2.jpg">
+                            <h4>Percussion Instruments</h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Featured Products -->
+            <div class="products">
+                <div class="small-container">
+                    <h2 class="title">Featured Products</h2>
+                    <div class="row">
+                        <div class="col-4">
+                            <img src="/image/fproducts/drumset.jpg">
+                            <h4>Drumset</h4>                            
+                            <div class="star">
+                                &#9733; &#9733; &#9733; &#9733; &#9734;                                
+                            </div>
+                            <p>$1500.00</p>
+                        </div>
+                        <div class="col-4">
+                            <img src="/image/fproducts/guitar1.jpg">
+                            <h4>Acoustic Guitar</h4>
+                            <div class="star">
+                                &#9733; &#9733; &#9733; &#9733; &#9734;                                
+                            </div>
+                            <p>$850.00</p>
+                        </div>
+                        <div class="col-4">
+                            <img src="/image/fproducts/psr sx970.jpg">
+                            <h4>PSR-X970</h4>
+                            <div class="star">
+                                &#9733; &#9733; &#9733; &#9733; &#9733;                                
+                            </div>
+                            <p>$1300.00</p>
+                        </div>
+                        <div class="col-4">
+                            <img src="/image/fproducts/sax1.jpg">
+                            <h4>Tenor Sax</h4>
+                            <div class="star">
+                                &#9733; &#9733; &#9733; &#9733; &#9734;                                
+                            </div>
+                            <p>$5000.00</p>
+                        </div>
+                    </div>
+                    <h2 class="title">Latest Products</h2>
+                    <div class="row">
+                        <div class="col-4">
+                            <img src="/image/lproducts/pdrum.jpg">
+                            <h4>Pearl Drumset</h4>                            
+                            <div class="star">
+                                &#9733; &#9733; &#9733; &#9733; &#9734;                                
+                            </div>
+                            <p>$3000.00</p>
+                        </div>
+                        <div class="col-4">
+                            <img src="/image/lproducts/vsax.jpg">
+                            <h4>Vento Sax</h4>
+                            <div class="star">
+                                &#9733; &#9733; &#9733; &#9733; &#9734;                                
+                            </div>
+                            <p>$49000.00</p>
+                        </div>
+                        <div class="col-4">
+                            <img src="/image/lproducts/ypiano.jpg">
+                            <h4>Yamaha TORCH T01</h4>
+                            <div class="star">
+                                &#9733; &#9733; &#9733; &#9733; &#9733;                                
+                            </div>
+                            <p>$6700.00</p>
+                        </div>
+                        <div class="col-4">
+                            <img src="/image/lproducts/aguitar.jpg">
+                            <h4>Alvarez Guitar</h4>
+                            <div class="star">
+                                &#9733; &#9733; &#9733; &#9733; &#9734;                                
+                            </div>
+                            <p>$2000.00</p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-4">
+                            <img src="/image/lproducts/btrumpet.jpg">
+                            <h4>Besson Trumpet</h4>                            
+                            <div class="star">
+                                &#9733; &#9733; &#9733; &#9733; &#9734;                                
+                            </div>
+                            <p>$2050.00</p>
+                        </div>
+                        <div class="col-4">
+                            <img src="/image/lproducts/npiano.jpg">
+                            <h4>Nord Piano 5</h4>
+                            <div class="star">
+                                &#9733; &#9733; &#9733; &#9733; &#9734;                                
+                            </div>
+                            <p>$3500.00</p>
+                        </div>
+                        <div class="col-4">
+                            <img src="/image/lproducts/ymctamb.jpg">
+                            <h4>YMC Tambourine</h4>
+                            <div class="star">
+                                &#9733; &#9733; &#9733; &#9733; &#9733;                                
+                            </div>
+                            <p>$20.00</p>
+                        </div>
+                        <div class="col-4">
+                            <img src="/image/lproducts/yviolin.jpg">
+                            <h4>Yamaha Violin</h4>
+                            <div class="star">
+                                &#9733; &#9733; &#9733; &#9733; &#9734;                                
+                            </div>
+                            <p>$3400.00</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Offers -->
+            <div class="offer">
+                <div class="small-container">
+                    <div class="row" id="rowe">
+                        <div class="col-2" id="offer-col-2">
+                            <img src="/image/oyayo.png" id="bani">
+                        </div>
+                        <div class="col-2" id="offer-col-21">
+                            <p>Exclusively Available on KeyzMart!!</p>
+                            <h1>Oyayo 88-keys foldable<br>Piano Keybord</h1>
+                            <small>The Oyayo 88-key piano keyboard features a foldable, 
+                                portable design with semi-weighted keys, Bluetooth/MIDI connectivity, 
+                                built-in speakers, touch sensitivity, rechargeable battery, 
+                                and beginner-friendly functions for practice and performance.</small> <br>
+                            <a href="" class="btn">Shop Now &#8594;</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Testimonials -->
+            <div class="testimonial">
+                <div class="small-container">
+                    <div class="row" id="row1">
+                        <div class="col-3" id="col-31">
+                            <div class="quote">&#8220;</div>
+                            <p>KeyzMart made finding the right instrument effortless. The staff helped me choose a keyboard that fit my needs and budget, and my order arrived quickly and well-packaged. The sound and build quality were excellent — I couldn’t be happier with my purchase.</p>
+                            <div class="star">&#9733; &#9733; &#9733; &#9733; &#9734;</div>
+                            <img src="/image/testimonials/woman1.jpg">
+                            <h5>Sarah Nashville</h5>
+                        </div>
+
+                        <div class="col-3" id="col-32">
+                            <div class="quote">&#8220;</div>
+                            <p>Fast delivery and top-notch customer support. I called with questions about accessories and got clear, friendly guidance. The guitar I bought sounds great and was set up perfectly out of the box.</p>
+                            <div class="star">&#9733; &#9733; &#9733; &#9733; &#9734;</div>
+                            <img src="/image/testimonials/man1.jpg">
+                            <h5>Daniel Austin</h5>
+                        </div>
+
+                        <div class="col-3" id="col-33">
+                            <div class="quote">&#8220;</div>
+                            <p>Excellent selection and fair prices. The online shopping experience was smooth and secure. I appreciated the detailed product photos and specs — helped me pick the right model.</p>
+                            <div class="star">&#9733; &#9733; &#9733; &#9733; &#9734;</div>
+                            <img src="/image/testimonials/woman2.jpg">
+                            <h5>Aisha Seattle</h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Brands -->
+             <div class="brands">
+                <div class="small-container">
+                    <div class="row">
+                        <div class="col-5">
+                            <img src="/image/brands/alvarez.png">
+                        </div>
+                        <div class="col-5">
+                            <img src="/image/brands/besson.png">
+                        </div>
+                        <div class="col-5">
+                            <img src="/image/brands/clavia-nord.png">
+                        </div>
+                        <div class="col-5">
+                            <img src="/image/brands/pearl.png">
+                        </div>
+                        <div class="col-5">
+                            <img src="/image/brands/yamaha.png">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Footer -->
+            <div class="footer">
+                <div class="container">
+                    <div class="row">
+                        <div class="footer-col-1">
+                            <h3>Download Our App</h3>
+                            <p>Download App for Android and IOS mobile phone.</p>
+                            <div class="applogo">
+                                <img src="/image/store/playstore.jpg">
+                                <img src="/image/store/appstore.jpg">
+                            </div>
+                        </div>
+                        <div class="footer-col-2">
+                            <img src="/image/icons/keyzmartapp.png">
+                            <p>Our Purpose Is To Sustainably Make the Pleasure and Benefits of Music Accessible to the Many.</p>
+                        </div>
+                        <div class="footer-col-4">
+                            <h3>Follow Us</h3>
+                            <ul>
+                                <li>Facebook</li>
+                                <li>Twitter</li>
+                                <li>Instagram</li>
+                                <li>Youtube</li>
+                            </ul>
+                        </div>        
+                    </div>
+                </div>
+                <hr>
+                <p class="copyright">&copy; Copyright 2025 - KeyzMart. All rights reserved. </p>
+                <nav class="footer-nav">
+                    <ul>
+                        <li><a href="privacy.html">Privacy</a></li>
+                        <li><a href="help.html">Help</a></li>
+                        <li><a href="terms.html">Terms</a></li>
+                        <li><a href="feedback.html">Feedback</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+        <script>
+            var MenuItems = document.getElementById("MenuItems");
+            MenuItems.style.maxHeight = "0px";
+            function menutoggle(){
+                if(MenuItems.style.maxHeight == "0px"){
+                    MenuItems.style.maxHeight = "200px";
+                }
+                else{
+                    MenuItems.style.maxHeight = "0px";
+                }
+            }
+        </script>
+    </body>
+</html>
