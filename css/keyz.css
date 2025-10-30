@@ -313,7 +313,6 @@ ul{
     display: none;
 }
 
-/* products */
 .row-2{
     justify-content: space-between;
     margin: 100px auto 50px;
@@ -403,6 +402,8 @@ th:last-child{
 }
 .art-cont{
     margin-bottom: 40px;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 .formcontainer{
     background: #fffac6;
